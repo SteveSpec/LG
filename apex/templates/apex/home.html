@@ -1,5 +1,28 @@
 {% extends "apex/base.html" %}
+{% load static %}
 {% block content %}
     <h1>Home Page</h1>
     <p><i>Apex means ‘The Top; ‘The Pinnacle’. </i></p>
+
+    <body>
+      <div class="card" style= "width: 18rem;">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+        </script>
+
+        <img src="{% static 'apex/media/tmx.jpg' %}"> <!--   alt="  " -->
+          <div class="card-body">
+            <h5 class="card-title"> Pipes </h5>
+            <h6 class="card-subtitle mb-2 text-muted"> Description </h6>
+            <p class="card-text"> A plastic pipe. Environment friendly and durable. </p>
+            <a href="" class="btn btn-primary"> Order Now </a>
+          </div>
+
+      </div>
+    </body>
+
 {% endblock content %}

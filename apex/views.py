@@ -1,5 +1,5 @@
 from django.shortcuts import render
-#from .models import Post
+from .models import Post
 
 #from django.http import HttpResponse
 
@@ -15,6 +15,7 @@ def home(request):
     return render(request, 'apex/home.html', {'title': 'Home'})
 
 def about(request):
+    posts = Post.objects.all()
     context = {
         'posts': posts
     }
