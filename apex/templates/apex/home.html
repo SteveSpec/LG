@@ -1,5 +1,8 @@
 {% extends "apex/base.html" %}
+{% load static %} <!--Load Static folder kwanza -->
 {% block content %}
     <h1>Home Page</h1>
     <p><i>Apex means ‘The Top; ‘The Pinnacle’. </i></p>
+
+    <img src="{% static 'apex/image1.jpg' %}"> <!--Load the file using this syntax -->
 {% endblock content %}

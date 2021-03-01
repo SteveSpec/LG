@@ -1,6 +1,1 @@
 venv/
-/apex/__pycache__/
-/apex/migrations/__pycache__/
-/users/__pycache__/
-/users/migrations/__pycache__/
-/web/__pycache__/
