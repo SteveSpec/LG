@@ -14,15 +14,35 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
         </script>
 
-        <img src="{% static 'apex/media/tmx.jpg' %}"> <!--   alt="  " -->
-          <div class="card-body">
-            <h5 class="card-title"> Pipes </h5>
-            <h6 class="card-subtitle mb-2 text-muted"> Description </h6>
+        <img src="{% static 'apex/media/hollow.jpg' %}"> <!--   alt="  " -->
+          <div class="card-border-primary mb-2" style="max-width: 18rem;">
+            <div class="card-title"> Pipes </div>
+            <div class="card-subtitle mb-2 text-muted"> Description </div>
             <p class="card-text"> A plastic pipe. Environment friendly and durable. </p>
-            <a href="" class="btn btn-primary"> Order Now </a>
+            <div class="buttons">
+              <a href="" class="btn btn-success btn-sm" type="button"> Order Now </a>
+              <a href="" class="btn btn-primary btn-sm" type=""> View Order </a>
+            </div>
+
+          </div>
+
+      </div><br>
+  <!-- 2nd image-->
+      <div class="card" style= "width: 18rem;">
+
+        <img src="{% static 'apex/media/bars.jpg' %}"> <!--   alt="  " -->
+          <div class="card-border-primary mb-2" style="max-width: 18rem;"">
+            <div class="card-title"> Pipes </div>
+            <div class="card-subtitle mb-2 text-muted"> Description </div>
+            <p class="card-text"> A plastic pipe. Environment friendly and durable. </p>
+
+            <a href="" class="btn btn-success btn-sm" type="button"> Order Now </a>
+            <a href="" class="btn btn-primary btn-sm" type=""> View Order </a>
+
           </div>
 
       </div>
+
     </body>
 
 {% endblock content %}
