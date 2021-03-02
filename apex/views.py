@@ -20,3 +20,6 @@ def about(request):
         'posts': posts
     }
     return render(request, 'apex/about.html', context)
+
+def orders(request):
+    return render(request, '', context)
