@@ -1,12 +1,105 @@
 {% extends "apex/base.html" %}
 {% load static %}
 {% block content %}
-    <h1>Home Page</h1>
-    <p><i>Apex means ‘The Top; ‘The Pinnacle’. </i></p>
+    <h1> Home Page </h1><br>
+    <p><i><b> Apex: ‘The Top; ‘The Pinnacle’. </b></i></p>
 
+<link rel="stylesheet" type="text/css" href="{% static 'apex/image.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'apex/button.css' %}">
     <body>
-      <!-- 1st image  -->
+    <div class="container-fluid row main-div">
+      <div class="col-md-8 col-lg-8 ">
+        <div class="cards-list">
 
+  <div class="card 1">
+    <div class="card_image"> <img src="{% static 'apex/media/hollow.jpg' %}" /> </div>
+      <div class="card_title ">
+        <p> Hollows </p>
+      </div>
+      <div class="buttons">
+        <a href="#" class="btn btn-success" type="button"> Order Now </a>
+        <a href="#" class="btn btn-primary" type=""> View Order </a>
+      </div>
+  </div>
+
+    <div class="card 2">
+    <div class="card_image">
+      <img src="{% static 'apex/media/bars.jpg' %}" />
+      </div>
+    <div class="card_title title-white">
+      <p> Bars </p>
+    </div>
+    <div class="buttons">
+      <a href="#" class="btn btn-success" type="button"> Order Now </a>
+      <a href="#" class="btn btn-primary" type=""> View Order </a>
+    </div>
+  </div>
+
+  <div class="card 3">
+    <div class="card_image">
+      <img src="{% static 'apex/media/tmx.jpg' %}" />
+    </div>
+    <div class="card_title title-white">
+      <p> TMX </p>
+    </div>
+    <div class="buttons">
+      <a href="#" class="btn btn-success" type="button"> Order Now </a>
+      <a href="#" class="btn btn-primary" type=""> View Order </a>
+    </div>
+  </div>
+
+    <div class="card 4">
+      <div class="card_image">
+        <img src="{% static 'apex/media/tubes.png' %}" />
+        </div>
+      <div class="card_title title-black">
+        <p> Tubes </p>
+      </div>
+      <div class="buttons">
+        <a href="#" class="btn btn-success" type="button"> Order Now </a>
+        <a href="#" class="btn btn-primary" type=""> View Order </a>
+      </div>
+    </div>
+
+
+    <div class="card 5">
+      <div class="card_image">
+        <img src="{% static 'apex/media/tubes.png' %}" />
+        </div>
+      <div class="card_title title-black">
+        <p> Tubes </p>
+      </div>
+      <div class="buttons">
+        <a href="#" class="btn btn-success" type="button"> Order Now </a>
+        <a href="#" class="btn btn-primary" type=""> View Order </a>
+      </div>
+    </div>
+
+
+    <div class="card 6">
+      <div class="card_image">
+        <img src="{% static 'apex/media/tubes.png' %}" />
+        </div>
+      <div class="card_title title-black">
+        <p> Tubes </p>
+      </div>
+      <div class="buttons">
+        <a href="#" class="btn btn-success" type="button"> Order Now </a>
+        <a href="#" class="btn btn-primary" type=""> View Order </a>
+      </div>
+    </div>
+
+
+  </div>
+
+
+      </div>
+      <div class="col-md-4 col-lg-4">
+
+      </div>
+
+    </div>
+<!--
       <div class="row">
         <div class="col-sm-5">
           <div class="card" style= "width: 18rem;">
@@ -18,7 +111,7 @@
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
             </script>
 
-            <img src="{% static 'apex/media/hollow.jpg' %}"> <!--   alt="  " -->
+            <img src="{% static 'apex/media/hollow.jpg' %}">
               <div class="card-border-primary mb-2" style="max-width: 18rem;">
                 <div class="card-title"> Pipes </div>
                 <div class="card-subtitle mb-2 text-muted"> Description </div>
@@ -33,12 +126,12 @@
 
 
         </div><br>
-    <!-- 2nd image-->
+
     <div class="row">
       <div class="col-sm-5">
         <div class="card" style= "width: 18rem;">
 
-          <img src="{% static 'apex/media/bars.jpg' %}"> <!--   alt="  " -->
+          <img src="{% static 'apex/media/bars.jpg' %}">
             <div class="card-border-primary mb-2" style="max-width: 18rem;"">
               <div class="card-title"> Pipes </div>
               <div class="card-subtitle mb-2 text-muted"> Description </div>
@@ -55,7 +148,7 @@
 
     </div>
 <br>
-    <!-- 3rd image-->
+
     <div class="row">
       <div class="col-sm-5">
         <div class="card" style= "width: 18rem;">
@@ -67,7 +160,7 @@
           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
           </script>
 
-          <img src="{% static 'apex/media/tubes.png' %}"> <!--   alt="  " -->
+          <img src="{% static 'apex/media/tubes.png' %}">
             <div class="card-border-primary mb-2" style="max-width: 18rem;">
               <div class="card-title"> Pipes </div>
               <div class="card-subtitle mb-2 text-muted"> Description </div>
@@ -82,12 +175,12 @@
 
 
       </div><br>
-  <!-- 4th image-->
+
   <div class="row">
     <div class="col-sm-5">
       <div class="card" style= "width: 18rem;">
 
-        <img src="{% static 'apex/media/tmx.jpg' %}"> <!--   alt="  " -->
+        <img src="{% static 'apex/media/tmx.jpg' %}">
           <div class="card-border-primary mb-2" style="max-width: 18rem;"">
             <div class="card-title"> Pipes </div>
             <div class="card-subtitle mb-2 text-muted"> Description </div>
@@ -103,7 +196,8 @@
     </div>
 
   </div>
-<br>
+<br> -->
     </body>
+
 
 {% endblock content %}
