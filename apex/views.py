@@ -23,3 +23,6 @@ def about(request):
 
 def orders(request):
     return render(request, '', context)
+
+def products(request):
+    return render(request, 'apex/home.html', {'title': 'products'})

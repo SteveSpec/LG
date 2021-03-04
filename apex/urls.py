@@ -10,6 +10,7 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('', views.home, name='apex-home'),
     path('about/', views.about, name='apex-about'),
+    path('', views.products, name= 'apex-home'),
 
-    #path('pipe.jpg',views.home),
+
 ]
