@@ -38,20 +38,20 @@ function get_order(element){
 // function addElement (order) {
 //     // create a new div element
 //     const newDiv = document.createElement("div");
-  
+
 //     // and give it some content
 //     var newContent = document.createTextNode(" | "+order.name);
-    
-  
+
+
 //     // add the text node to the newly created div
 //     newDiv.appendChild(newContent);
 
 //     var newContent = document.createTextNode(" | "+order.price);
-    
-  
+
+
 //     // add the text node to the newly created div
 //     newDiv.appendChild(newContent);
-  
+
 //     // add the newly created element and its content into the DOM
 //     const currentDiv = document.getElementById("div1");
 //     document.body.insertBefore(newDiv, currentDiv);
