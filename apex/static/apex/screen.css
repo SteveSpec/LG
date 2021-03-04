@@ -1,0 +1,11 @@
+.screen {
+  width: 80%;
+  height: 4em;
+  margin: 0 auto;
+  background-color: #5f788a;
+  border-radius: 10% 10% 10% 10%;
+  border: 3px white solid;
+  text-align: center;
+  overflow: hidden;
+  left: inherit;
+}

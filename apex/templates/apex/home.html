@@ -6,6 +6,7 @@
 
 <link rel="stylesheet" type="text/css" href="{% static 'apex/image.css' %}">
 <link rel="stylesheet" type="text/css" href="{% static 'apex/button.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'apex/screen.css' %}">
 
     <h1> Home Page </h1><br>
     <p><i><b> Apex: ‘The Top; ‘The Pinnacle’. </b></i></p>
@@ -95,10 +96,12 @@
     </div>
 <br>
     <div class="col-md-4 col-lg-4">
+      <div class='screen'>
+        <div id='finalPrice'><b> Total Price: </b><span id='TotalCost'>0 </span>
+        </div>
+        <script src= "{% static 'js/index.js' %}"/>
 
-      <div id='finalPrice'><b> Total Price: </b><span id='TotalCost'>0 </span>
       </div>
-      <script src= "{% static 'js/index.js' %}"/>
 
     </div>
 
