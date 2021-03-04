@@ -117,7 +117,7 @@
                 <div class="card-subtitle mb-2 text-muted"> Description </div>
                 <p class="card-text"> A plastic pipe. Environment friendly and durable. </p>
                 <div class="buttons">
-                  <a href="#" class="btn btn-success btn-sm" type="button"> Order Now </a>
+                  <a id = '100' name='Pipes' onClick="get_order(this)" href="#" class="btn btn-success btn-sm" type="button"> Order Now </a> <!--ID saves the price, name stores the object name-->
                   <a href="#" class="btn btn-primary btn-sm" type=""> View Order </a>
                 </div>
 
@@ -131,13 +131,18 @@
       <div class="col-sm-5">
         <div class="card" style= "width: 18rem;">
 
+<<<<<<< HEAD
           <img src="{% static 'apex/media/bars.jpg' %}">
             <div class="card-border-primary mb-2" style="max-width: 18rem;"">
+=======
+          <img src="{% static 'apex/media/bars.jpg' %}"> <!--   alt="  " -->
+            <div class="card-border-primary mb-2" style="max-width: 18rem;">
+>>>>>>> bcd0d06f4544de4fb7bb8dac14c3e53ad8a23a21
               <div class="card-title"> Pipes </div>
               <div class="card-subtitle mb-2 text-muted"> Description </div>
               <p class="card-text"> A plastic pipe. Environment friendly and durable. </p>
 
-              <a href="#" class="btn btn-success btn-sm" type="button"> Order Now </a>
+              <a id = '500' name='Pipes' onClick="get_order(this)" href="#" class="btn btn-success btn-sm" type="button"> Order Now </a>
               <a href="#" class="btn btn-primary btn-sm" type=""> View Order </a>
 
             </div>
@@ -166,7 +171,7 @@
               <div class="card-subtitle mb-2 text-muted"> Description </div>
               <p class="card-text"> A plastic pipe. Environment friendly and durable. </p>
               <div class="buttons">
-                <a href="#" class="btn btn-success btn-sm" type="button"> Order Now </a>
+                <a id = '400' name='Pipes' onClick="get_order(this)" href="#" class="btn btn-success btn-sm" type="button"> Order Now </a>
                 <a href="#" class="btn btn-primary btn-sm" type=""> View Order </a>
               </div>
 
@@ -186,7 +191,7 @@
             <div class="card-subtitle mb-2 text-muted"> Description </div>
             <p class="card-text"> A plastic pipe. Environment friendly and durable. </p>
 
-            <a href="#" class="btn btn-success btn-sm" type="button"> Order Now </a>
+            <a id = '300' name='Pipes' onClick="get_order(this)" href="#" class="btn btn-success btn-sm" type="button"> Order Now </a>
             <a href="#" class="btn btn-primary btn-sm" type=""> View Order </a>
 
           </div>
@@ -196,8 +201,15 @@
     </div>
 
   </div>
+<<<<<<< HEAD
 <br> -->
     </body>
 
 
+=======
+<br>
+<div id='finalPrice'> Total Price <span id='TotalCost'>0 </span></div>
+    </body>
+<script src="{% static 'js/index.js' %}"></script>
+>>>>>>> bcd0d06f4544de4fb7bb8dac14c3e53ad8a23a21
 {% endblock content %}
